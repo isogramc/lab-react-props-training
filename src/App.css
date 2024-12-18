@@ -1,0 +1,112 @@
+.App{margin: 50px;}
+
+.student-card{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.student-details{
+    padding-left: 5px;
+}
+.greeting{
+    width: 350px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.random-num{
+    width: 350px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.block-colour{
+    width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+
+.credit-card{
+    width: 350px;
+    height: 190px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-img img{
+    width: 50px;
+}
+
+.card-num{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.cc-one{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.bank{
+    padding-left: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.driver-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 550px;
+    background-color: rgb(66, 90, 174);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.driver-img{
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.driver-img img{
+    width: 150px;
+}
+
+.driver-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.driver-details h1{
+    line-height: 0;
+}
